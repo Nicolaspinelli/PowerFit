@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PowerFit</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">PowerFit</div>
+        <button class="btnpedido">Faça o seu pedido</button>
+    </header>
+    
+    <main>
+    <!-- HERO SECTION WITH CAROUSEL -->
+        <section class="hero">
+  <div class="carousel">
+
+    <div class="slide active" style="background-image: url('img/img1.jpg');"></div>
+    <div class="slide" style="background-image: url('img/img2.jpg');"></div>
+    <div class="slide" style="background-image: url('img/img3.jpg');"></div>
+
+  </div>
+</section>
+
+        <!-- ABOUT SECTION -->
+        <section id="features" class="container">
+            <h3>O que oferecemos</h3>
+            <ul>
+                <li>Planos personalizados</li>
+                <li>Acompanhamento profissional</li>
+                <li>Treinos para todos os níveis</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> PowerFit. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Define o ano atual no rodapé
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
